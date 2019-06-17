@@ -1,0 +1,153 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  
+  }
+  
+  html, body, div, span, applet, object, iframe,
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+  a, abbr, acronym, address, big, cite, code,
+  del, dfn, em, img, ins, kbd, q, s, samp,
+  small, strike, strong, sub, sup, tt, var,
+  b, u, i, center,
+  dl, dt, dd, ol, ul, li,
+  fieldset, form, label, legend,
+  table, caption, tbody, tfoot, thead, tr, th, td,
+  article, aside, canvas, details, embed,
+  figure, figcaption, footer, header, hgroup,
+  menu, nav, output, ruby, section, summary,
+  time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  /* HTML5 display-role reset for older browsers */
+  article, aside, details, figcaption, figure,
+  footer, header, hgroup, menu, nav, section {
+    display: block;
+  }
+  body {
+    line-height: 1;
+  }
+  ol, ul {
+    list-style: none;
+  }
+  blockquote, q {
+    quotes: none;
+  }
+  blockquote:before, blockquote:after,
+  q:before, q:after {
+    content: '';
+    content: none;
+  }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+
+  /* GRID */
+
+
+
+.container-fluid {
+    width: 100%;
+    border: 5px solid red;
+    /* height: 50vh; */
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    background-color: brown;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    border: 1px solid green;
+    /* height: 40vh; */
+
+}
+
+.col-12 {
+    width: calc(100% - 20px);
+    margin: 0 auto;
+    border: 2px solid blue;
+    height: 30vh;
+}
+
+.col-11 {
+    width: calc(92% - 20px);
+    margin: 0 auto;
+    border: 2px solid black;
+    height: 30vh;
+}
+
+.col-10 {
+    width: calc(84% - 20px);
+    margin: 0 auto;
+    border: 2px solid black;
+    height: 30vh;
+}
+.col-9 {
+    width: calc(76% - 20px);
+    margin: 0 auto;
+    border: 2px solid black;
+    height: 30vh;
+}
+.col-8 {
+    width: calc(68% - 20px);
+    margin: 0 auto;
+    border: 2px solid black;
+    height: 30vh;
+}
+.col-7 {
+    width: calc(60% - 20px);
+    margin: 0 auto;
+    border: 2px solid black;
+    height: 30vh;
+}
+.col-6 {
+    width: calc(52% - 20px);
+    margin: 0 auto;
+    border: 2px solid black;
+    height: 30vh;
+}
+.col-5 {
+    width: calc(44% - 20px);
+    margin: 0 auto;
+    border: 2px solid black;
+    height: 30vh;
+}
+.col-4 {
+    width: calc(36% - 20px);
+    margin: 0 auto;
+    border: 2px solid black;
+    height: 30vh;
+}
+.col-3 {
+    width: calc(28% - 20px);
+    margin: 0 auto;
+    border: 2px solid black;
+    height: 30vh;
+}
+.col-2 {
+    width: calc(20% - 20px);
+    margin: 0 auto;
+    border: 2px solid black;
+    height: 30vh;
+}
+.col-1 {
+    width: calc(12% - 20px);
+    margin: 0 auto;
+    border: 2px solid black;
+    height: 30vh;
+}
+  
+  
+  
